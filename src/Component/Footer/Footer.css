@@ -1,0 +1,16 @@
+.footer .social-icon{
+    font-size: 30px;
+    
+}
+.footer .social-icon i{
+    margin-left: 15px;
+}
+.footer .social-icon i:first-child{
+    color: blue;
+}
+.footer .social-icon i{
+    color: rgb(89, 89, 235);
+}
+.footer .social-icon i:last-child{
+    color: rgb(255, 0, 0);
+}

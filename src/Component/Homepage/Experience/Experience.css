@@ -1,0 +1,18 @@
+
+/* .experience .experience-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+} */
+
+.experience-box .fleuri{
+    border-left: 3px solid black;
+   padding-left:  15px;
+   font-weight: bold;
+   font-size: 20px;
+}
+.experience-box .experienceBtn{
+    border-radius: 20px;
+    padding: 8px 20px !important;
+}

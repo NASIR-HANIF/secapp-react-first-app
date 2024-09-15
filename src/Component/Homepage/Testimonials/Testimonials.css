@@ -1,0 +1,29 @@
+
+.testimonials-container .testimonials-card{
+    background-color: #f5f5f5;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.testimonials-container .testimonials-card .testimonials-img{
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    background-color: #f5f5f5;
+    margin:  0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.testimonials-img img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.testimonials-link{
+    color: slateblue;
+    font-weight: bold;
+}

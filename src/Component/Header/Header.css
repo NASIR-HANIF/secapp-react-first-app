@@ -1,0 +1,51 @@
+.nav-link , .brand-name{
+    font-family: 'Poppins', sans-serif;
+}
+
+#basic-nav-dropdown {
+    color: #fff !important;
+}
+.arrow{
+    font-size: 40px !important;
+    position: absolute;
+    top: -27px;
+    left: 27px;
+   color: white;
+}
+.dropdown-menu{
+    position: absolute;
+    top: 60px !important;
+    animation: zoomIn;
+    animation-duration: 1s;
+}
+.sticky{
+    background: #fff !important;
+    transition: 0.5s ease-in;
+    animation: slideInDown;
+    animation-duration: 0.5s;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+.sticky .nav-link,.sticky .navbar-brand,
+.sticky #basic-nav-dropdown {
+    color: black !important;
+}
+@media (max-width : 768px) {
+  
+.navbar{
+    position: inherit !important;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+.navbar-toggler{
+    background-color: #fff !important;
+}
+.navbar-toggler-icon{
+    background: inherit !important;
+}
+.navbar-toggler-icon::after{
+    font-family: "FontAwesome";
+    content: "\f038";
+    color:  rgba(0, 0, 0, 0.8) !important;
+    font-size: 30px;
+
+}
+}

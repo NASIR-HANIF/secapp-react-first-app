@@ -1,0 +1,18 @@
+.ourServices-container .icon-box{
+    width: 110px;
+    height: 80px;
+    color: slateblue;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    font-size: 30px;
+}
+
+.ourServices-container .icon-box .iborder{
+    border: 1px solid rgb(105, 105, 105);
+    padding: 5px;
+}
+
+.ourServices-container .cardTitle{
+    color: slateblue;
+}
